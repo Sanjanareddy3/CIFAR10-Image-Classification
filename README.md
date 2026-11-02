@@ -1,4 +1,4 @@
-# Comparative Analysis of ANN and CNN for CIFAR-10 Image Classification
+# Image Classification using ANN and CNN on the CIFAR-10 Dataset
 
 ## Project Overview
 
