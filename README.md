@@ -73,15 +73,30 @@ CIFAR10-Image-Classification/
 
 The CIFAR-10 dataset can be loaded using TensorFlow/Keras.
 
-## Results
+## Results and Performance Analysis
 
-The notebook evaluates the ANN and CNN models using test loss and accuracy.
+The ANN and CNN models were trained and evaluated using the CIFAR-10 dataset. Their performance was assessed using test loss and test accuracy.
 
-The actual results should be recorded here after running both models.
+### Model Performance Comparison
 
-## Conclusion
+| Evaluation Metric | ANN Model | CNN Model |
+|---|---|---|
+| Training Epochs | 10 | 10 |
+| Test Loss | Add actual result | Add actual result |
+| Test Accuracy | Add actual result | Add actual result |
+| Architecture | Fully Connected Layers | Convolutional and Fully Connected Layers |
 
-This project provides a comparative study of ANN and CNN architectures for image classification using CIFAR-10. It demonstrates image preprocessing, neural network construction, model training, evaluation, and prediction.
+### Observations
+
+- **ANN:** The model uses fully connected layers to classify images based on their pixel values.
+- **CNN:** The model uses convolutional layers to learn spatial features from images.
+- **Performance Comparison:** Comparing test accuracy and test loss helps evaluate how effectively each architecture classifies unseen images.
+- **Expected Outcome:** CNNs are generally better suited to image classification because they learn spatial patterns. However, the actual performance depends on the model architecture and training process.
+
+### Conclusion
+
+This experiment demonstrates the implementation and evaluation of ANN and CNN models for multiclass image classification. Comparing their test performance helps illustrate the advantages and limitations of each architecture when working with image data.
+
 
 ## Author
 
