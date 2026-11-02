@@ -82,8 +82,8 @@ The ANN and CNN models were trained and evaluated using the CIFAR-10 dataset. Th
 | Evaluation Metric | ANN Model | CNN Model |
 |---|---|---|
 | Training Epochs | 10 | 10 |
-| Test Loss | Add actual result | Add actual result |
-| Test Accuracy | Add actual result | Add actual result |
+| Test Loss |  loss: 1.5252 | loss: 0.9717 |
+| Test Accuracy | accuracy: 0.4597 | accuracy: 0.7074   |
 | Architecture | Fully Connected Layers | Convolutional and Fully Connected Layers |
 
 ### Observations
